@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.splitpanes--vertical > .splitpanes__splitter {
+  width: 8px;
+  background: rgb(180, 180, 180);
+}
+
+.splitpanes--horizontal > .splitpanes__splitter {
+  height: 8px;
+  background: rgb(180, 180, 180);
+}
+
+.CodeMirror {
+  height: calc(100% - 42px) !important;
+  font-family: "Roboto Mono", monospace !important;
+  font-size: 14px !important;
+}
